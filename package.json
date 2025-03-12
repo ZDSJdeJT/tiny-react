@@ -1,0 +1,33 @@
+{
+  "name": "tiny-react",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Echo <zdsjdejt@qq.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "test": "vitest",
+    "format": "biome format --write .",
+    "lint": "biome lint --write .",
+    "check": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@tailwindcss/vite": "^4.0.12",
+    "clsx": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "daisyui": "^5.0.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss": "^4.0.12",
+    "uuidv7": "^1.0.2",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
